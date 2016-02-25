@@ -102,7 +102,7 @@ object Master {
             
                       //the number of tariling zero's.
                       val numZero = if (args.length > 0) args(0) toInt else 3
-                      var ufID = "ipatwa"
+                      var ufID = "juthikadas"
                       
                       //when there's a standAlone implementation default to this number of workers.
                       //incase of distributed, these many workers will be running on the same machine as master
